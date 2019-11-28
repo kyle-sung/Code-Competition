@@ -1,0 +1,56 @@
+@font-face{
+    font-family: apple;
+    src: url(sf-pro-text-thin-webfont.ttf);
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+/*NAVIGATION FONT*/ 
+
+#branding h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+nav a{
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/*SHOWCASE 1 FONT*/
+#showcase1 h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 700%;
+    color: black;
+}
+
+#showcase1 p{
+    font-family: 'Karla', sans-serif;
+    font-size: 180%;
+}
+
+#showcase1 .button a{
+    text-decoration: none;
+    color: white;
+    /*relative position of the link prevents the text from being covered by animation shape
+    that is absolutely positioned*/
+    position: relative;
+}
+
+/*SHOWCASE 2 FONTS*/
+#showcase2 h2{
+    color: white;
+    font-size: 200%;
+}
+
+#showcase2 p{
+    color: grey;
+    font-size: 120%;
+}
